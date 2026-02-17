@@ -61,7 +61,7 @@ jobs:
         run: |
           if [ ! -f "${SUPPRESSION_FILE}" ]; then
             echo "Suppression file not found. Downloading default..."
-            curl -sL https://raw.githubusercontent.com/openmrs/openmrs-contrib-gha-workflows/owasp-test/dependency-check-suppressions.xml \
+            curl -sL https://raw.githubusercontent.com/wikumChamith/openmrs-contrib-gha-workflows/owasp-test/dependency-check-suppressions.xml \
               -o "${SUPPRESSION_FILE}"
           else
             echo "Suppression file already exists."
