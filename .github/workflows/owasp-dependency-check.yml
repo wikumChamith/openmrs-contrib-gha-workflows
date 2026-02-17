@@ -91,4 +91,4 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: Dependency Check report
-          path: ${{ github.workspace }}/report
+          path: ${{ github.workspace }}/reports
